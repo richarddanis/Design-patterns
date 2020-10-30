@@ -29,7 +29,7 @@ public class Company {
         Visitor avgSalary = new AverageSalary();
         Visitor numberOfEmployee = new NumberOfEmployee();
         NumberOfEmployeePerDepartment numberOfEmployeePerDepartment = new NumberOfEmployeePerDepartment();
-        Visitor salaryRaise = new SalaryRaise();
+        SalaryRaise salaryRaise = new SalaryRaise();
 
         for(Employee i: employeeList){
             i.accept(totalSalary);
@@ -45,7 +45,7 @@ public class Company {
                         "Average salary: " + avgSalary.getResult() + "\n" +
                         "Number of employee: " + numberOfEmployee.getResult() + "\n" +
                         "Number of employee per department: " + numberOfEmployeePerDepartment.departmentPerEmployeeNumber() + "\n" +
-                        "Salary raise: ????? " + salaryRaise.getResult()
+                        "Salary raise: " + salaryRaise.getIncreasedNamePerSalary()
         );
     }
 }

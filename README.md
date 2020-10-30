@@ -1,4 +1,5 @@
-# Design-patterns-for Java
+# Design patterns for Java
 
 Include:
 - Singletone 
+- Visitor

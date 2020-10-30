@@ -1,5 +1,10 @@
 # Design patterns for Java
 
-Include:
+## Included patterns 
 - Singletone 
 - Visitor
+
+## Pre Requests
+- Java 1.8
+
+
